@@ -89,16 +89,30 @@ make re       # rebuilds everything
 ### Usage
 
 ```bash
-./cub3d final_maps/map.cub
+./cub3d maps/map.cub
 ```
 
-The repository includes three folders of maps:
+The repository includes two folders of maps, which use `.xpm` textures:
 
 | Folder | Content |
 |---|---|
-| `final_maps/` | Polished maps with their textures |
-| `maps/` | Test maps (big maps, maps with spaces, texture tests, …) |
+| `maps/` | Valid maps with their textures (`map.cub` and `map_rock.cub` are the polished ones; the rest are test maps: big maps, maps with spaces, texture tests, …) |
 | `wrongmaps/` | Invalid maps to test error handling (open map, missing texture, invalid colour, several players, wrong extension, …) |
+
+#### Using these maps in your own project
+
+Feel free to use these maps to test your own cub3D. If your project loads `.png` textures instead of `.xpm`, use the `png_maps/` folder. It has the same maps with the textures converted to PNG:
+
+| Folder | Content |
+|---|---|
+| `png_maps/maps/` | PNG version of `maps/` |
+| `png_maps/wrongmaps/` | PNG version of `wrongmaps/` |
+
+Texture paths inside the `.cub` files are relative to the repository root. Copy the whole `maps/`, `wrongmaps/` or `png_maps/` folder into the root of your project and run your executable from there:
+
+```bash
+./cub3D png_maps/maps/map.cub
+```
 
 ### Controls
 

@@ -1,7 +1,7 @@
-NO final_maps/textures/north2.xpm
-SO final_maps/textures/south2.xpm
-WE final_maps/textures/west2.xpm
-EA final_maps/textures/east2.xpm
+NO png_maps/maps/textures/map/north2.png
+SO png_maps/maps/textures/map/south2.png
+WE png_maps/maps/textures/map/west2.png
+EA png_maps/maps/textures/map/east2.png
 
 F 88,57,39
 C 19,58,58  

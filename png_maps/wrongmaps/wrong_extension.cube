@@ -1,0 +1,12 @@
+NO png_maps/wrongmaps/testing/North.png
+SO png_maps/wrongmaps/testing/South.png
+WE png_maps/wrongmaps/testing/West.png
+EA png_maps/wrongmaps/testing/East.png
+
+F 237,158,84
+C 167,243,255
+
+1111111111111111111
+1000000000000000001
+100000000W000000001
+1111111111111111111

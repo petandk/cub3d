@@ -1,0 +1,11 @@
+NO png_maps/maps/textures/testing/North.png
+SO png_maps/maps/textures/testing/South.png
+WE png_maps/maps/textures/testing/West.png
+EA png_maps/maps/textures/testing/East.png
+
+F 0,0,0
+C 255,255,255
+
+111111
+1000N1
+111111
